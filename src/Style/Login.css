@@ -1,0 +1,45 @@
+.loginBox
+{
+    box-shadow: 0px 3px black;
+    border-radius: 2px;
+    padding: 30px;
+    width: 300px;
+    height: 350px;
+    border: 1px solid black;
+    position: absolute;
+    top:50%;
+    left: 50%;
+    transform: translate(-50%,-50%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: white;
+
+}
+
+.link
+{
+    text-decoration: none;
+    margin-top: 1px;
+    color:black;
+    transition: color .4s ease;
+
+}
+
+.link:hover
+{
+    color: deepskyblue;
+}
+
+.btn-outline-primary
+{
+    border: 1px solid deepskyblue  !important;
+    color: deepskyblue !important;
+}
+
+.btn-outline-primary:hover
+{
+    background-color:  deepskyblue !important;
+    color: white !important;
+}
+

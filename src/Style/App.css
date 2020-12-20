@@ -1,0 +1,205 @@
+html,body
+{
+    background-color: deepskyblue;
+    font-family: 'Times New Roman', Times, serif;
+    overflow-x: hidden;
+ 
+}
+
+nav
+{
+    padding: 15px;
+}
+
+aside
+{
+    height: 100vh;
+    background-color: white;
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+article
+{
+    height: 100vh;
+    padding: 30px;
+    display: flex;
+    justify-content: center;
+}
+
+.cardContainer
+{
+    width: 95% !important;
+    height: 100% !important;
+    background-color: white;
+    padding: 30px;
+    overflow-y: auto;
+
+}
+
+.btnCategory
+{
+    margin-top: 30px;
+    width: 80%;
+    height: 100px;
+    cursor: pointer;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.btnCategory:hover
+{
+    border: 1px solid deepskyblue;
+}
+
+
+.imgNes
+{
+    width: 90%;
+    height: 25%;
+}
+
+.imgSnes
+{
+    width: 85%;
+    height: 25%;
+}
+
+.imgN64
+{
+    width: 60%;
+    height: 70%;
+}
+
+.imgAll
+{
+    width: 95%;
+    height: 60%;
+}
+
+.card
+{
+    padding: 10px !important;
+}
+
+.card-img
+{
+    min-height: 150px;
+    display: flex;
+    justify-content: center;
+}
+
+.card-img-top-Nes
+{
+    height: 150px !important;
+    width: 140px !important ;
+    cursor: pointer;
+    margin: auto;
+}
+
+.card-img-top-Snes
+{
+    height: 100px !important;
+    width: 140px !important ;
+    cursor: pointer;
+    margin: auto;
+}
+
+.card-img-top-N64
+{
+    height: 100px !important;
+    width: 140px !important ;
+    cursor: pointer;
+    margin: auto;
+}
+
+.modalRegister
+{
+    background: white;
+    border-radius: 5px;
+    color: rgb(51, 51, 51);
+    display: inline;
+    max-height: 600px;
+    max-width: 500px;
+    outline: none;
+    padding: 10px;
+}
+
+
+.modal-fondo /*Custome*/
+{
+    background-color:rgba(0, 0, 0, 0.685);
+    bottom: 0;
+    left: 0;
+    right: 0;
+    top: 0;
+    position: fixed;
+}
+
+
+.containerCard
+{
+    height: 75vh;
+    width: 100vw;
+    display: flex;
+    justify-content: center;
+    padding: 30px;
+    overflow-y: hidden;
+    margin-top: 40px;
+}
+
+.cardBox
+{
+    height: 80vh;
+    width: 80vw;
+    background-color: white;
+    overflow: auto;
+}
+
+
+.infoBoxCard
+{
+    padding: 40px;
+    
+}
+
+.updateInput
+{
+
+    padding: 10px;
+
+}
+
+
+.imgBoxCard 
+{
+    padding: 40px;
+    display: flex;
+    justify-content: center;
+
+}
+
+.cardScreenImgNes
+{
+    width: 400px;
+    height: 450px;
+
+}
+
+.cardScreenImgSnes
+{
+    width: 410px;
+    height:250px;
+    margin-top: 100px;
+}
+
+
+.cardScreenImgN64
+{
+    width: 330px;
+    height:230px;
+    margin-top: 100px;
+}
